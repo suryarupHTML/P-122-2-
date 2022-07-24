@@ -61,7 +61,7 @@ function draw() {
     document.getElementById("status").innerHTML = to_number + " Apples drawn";
     speak_data = to_number + "Apples drawn";
     speak();
-    draw_apple = "set";
+    draw_apple = "";
   }
 }
 
